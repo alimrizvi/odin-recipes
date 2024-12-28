@@ -2,11 +2,23 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+body {background-color: wheat;}
+
+p,h1 {
+    text-align: center;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    height: auto;
+    width: 300px;
+    /* width: 25%; */
 }
 
 .title {
@@ -18,9 +30,17 @@ img {
 }
 
 .ingredients {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
     color:blue
 }
 
 .method {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
     color:green
 }
